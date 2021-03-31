@@ -1,9 +1,9 @@
 from behave import *
 from selenium import webdriver
-from utilities.customLogger import LogGen
+
 import time
 
-mylogger = LogGen.logger()
+
 
 @given('I launch chrome browser')
 def launch_browser(context):

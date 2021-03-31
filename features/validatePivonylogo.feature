@@ -1,6 +1,6 @@
-Feature: OrangeHRM Logo
+Feature: pivony Logo
 
-  Scenario: Logo presence on OrangeHRM home Page
+  Scenario: Logo presence on pivony home Page
     Given launch chrome browser
     When open pivony homepage
     Then verify that the logo present on page
